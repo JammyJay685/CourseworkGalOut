@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "SpaceOutlaws 0.1.sln"
+    "dotnet.defaultSolution": "Coursework2.sln"
 }
