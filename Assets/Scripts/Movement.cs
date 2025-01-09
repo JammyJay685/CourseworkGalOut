@@ -52,3 +52,4 @@ public class Movement : MonoBehaviour
         PlayerShip.position += PlayerShip.forward*boostSpeed*Time.deltaTime*Input.GetAxis("Boost");
     }
 }
+// Jamie
