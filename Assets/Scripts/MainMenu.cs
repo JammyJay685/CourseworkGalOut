@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         // Load the main game scene 
-        SceneManager.LoadScene("SpaceOutlaws0.3");
+        SceneManager.LoadScene("SpaceOutlaws0.7");
     }
 
     public void QuitGame()
