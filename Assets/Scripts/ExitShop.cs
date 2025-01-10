@@ -12,3 +12,4 @@ public class ExitShop : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 }
+// Jamie

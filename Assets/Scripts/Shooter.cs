@@ -10,11 +10,13 @@ public class Shooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // If mouse button 1 is being held down, shoot
         if (Input.GetButtonDown("Fire1")){
             Shoot();
         }
     }
     void Shoot(){
+        // Checks in a striaght line within range whether or not the object hit is a "Target" if so, remove the damage variable from the gobal "Health" variable
         RaycastHit hitInfo;
         if (Physics.Raycast(fpsCam.transform.position,fpsCam.transform.forward,out hitInfo, range)){
             Debug.Log("Hit: " + hitInfo.transform.name);

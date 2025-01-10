@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "CourseworkGalOut.sln"
+    "dotnet.defaultSolution": "Coursework2.sln"
 }
