@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88979e6262344474a9d9e46f87b9f178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI_Shop: {fileID: 1982636472500365284, guid: 2bab63b7517063440bbf23eecfee66b3, type: 3}
+  UI_Shop: {fileID: 102018935}
 --- !u!135 &37729722
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -741,6 +741,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786347049}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
+--- !u!1 &102018935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1982636472500365284, guid: 2bab63b7517063440bbf23eecfee66b3, type: 3}
+  m_PrefabInstance: {fileID: 2133428756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &102018936 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 447144677803784112, guid: 2bab63b7517063440bbf23eecfee66b3, type: 3}
@@ -1075,6 +1080,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b741a502b158eda4285f179c6e4dec99, type: 3}
       insertIndex: -1
       addedObject: {fileID: 347612225}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b741a502b158eda4285f179c6e4dec99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 347612226}
     - targetCorrespondingSourceObject: {fileID: 9013638940889411661, guid: b741a502b158eda4285f179c6e4dec99, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1532505930}
@@ -1325,6 +1333,29 @@ MonoBehaviour:
   boostSpeed: 70
   turn: {x: 0, y: 0}
   deltaMove: {x: 0, y: 0, z: 0}
+--- !u!136 &347612226
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347612220}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &431521502
 GameObject:
   m_ObjectHideFlags: 0
@@ -4753,6 +4784,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4809494691885829703, guid: 2bab63b7517063440bbf23eecfee66b3, type: 3}
+      propertyPath: UI_Shop
+      value: 
+      objectReference: {fileID: 102018935}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -4,7 +4,7 @@ public class Shooter : MonoBehaviour
 {
     // The variables that control the weapons
     public float range = 100f;
-    public float damage = 10f;
+    public static float damage = 10f;
     public float fireRate = 15f;
     public Camera fpsCam;
     // Update is called once per frame

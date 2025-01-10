@@ -25,7 +25,6 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
         // Calls the thrust and turn functions
-
         Turn();
         Thrust();
     }
